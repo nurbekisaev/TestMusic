@@ -1,4 +1,4 @@
-package org.example;
+package org.music.notes.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

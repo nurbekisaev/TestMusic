@@ -1,5 +1,7 @@
-package org.example;
+package org.music.notes.handler;
 
+import org.music.notes.dto.Note;
+import org.music.notes.dto.Octave;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

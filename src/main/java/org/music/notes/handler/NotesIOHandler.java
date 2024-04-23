@@ -1,4 +1,6 @@
-package org.example;
+package org.music.notes.handler;
+
+import org.music.notes.dto.Note;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
