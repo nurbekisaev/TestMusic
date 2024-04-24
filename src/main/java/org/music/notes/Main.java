@@ -22,7 +22,7 @@ public class Main {
         */
 
         String inputFile = "./test_input.json";
-        int semitones = 15;
+        int semitones = -3;
         String outputFile = "./test_output.json";
 
         NotesIOHandler notesIOHandler = new NotesIOHandler();
@@ -52,7 +52,7 @@ public class Main {
             }
 
         } catch (IOException e) {
-            LOGGER.error("Error reading/writing files: " + e.getMessage());
+            LOGGER.error("Error reading/writing files: {}", e.getMessage());
         } catch (IllegalArgumentException e) {
             LOGGER.error(e.getMessage());
         }
